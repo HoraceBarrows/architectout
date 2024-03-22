@@ -1,0 +1,34 @@
+{
+  "name": "architectout",
+  "version": "1.0.0",
+  "description": "Typescript QR Code generator based on https://github.com/kazuhikoarase/qrcode-generator",
+  "main": "bundles/qrcodegeneratorts.min.js",
+  "typings": "index",
+  "scripts": {
+    "pack-debug": "node_modules/.bin/webpack --debug",
+    "pack-min": "node_modules/.bin/webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoraceBarrows/architectout.git"
+  },
+  "keywords": [
+    "numquam",
+    "typescript",
+    "rerum"
+  ],
+  "author": "BellaKilback",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoraceBarrows/architectout.git/issues"
+  },
+  "homepage": "https://github.com/HoraceBarrows/architectout.git",
+  "devDependencies": {
+    "ts-loader": "^1.2.1",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^1.16.2"
+  }
+}
